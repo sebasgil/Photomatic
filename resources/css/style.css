@@ -310,9 +310,12 @@ header .mobile {
 }
 
 #filters-section .content h2 {
+  opacity: 100%;
+  font-family: Roboto-Bold;
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  padding-bottom: 1rem;
 }
 
 #filters-section .content h3 {
@@ -320,14 +323,22 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  font-family: Roboto-Light;
 }
 
 #filters-section .images-container {
+  display: flex;
+  justify-content: center;
   max-width: 100%;
   padding: 0 1%;
 }
 
-@media only screen and (max-width: 760px) {
+#filters-section .image-container img {
+  max-width: 100%;
+}
+
+
+/*@media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
