@@ -311,7 +311,7 @@ header .mobile {
 
 #filters-section .content h2 {
   opacity: 100%;
-  font-family: Roboto-Bold;
+  font-family: Roboto;
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
@@ -321,9 +321,9 @@ header .mobile {
 #filters-section .content h3 {
   font-size: 1rem;
   line-height: 1.4;
-  font-weight: 300;
+  font-weight: lighter;
   color: white;
-  font-family: Roboto-Light;
+  font-family: Roboto;
 }
 
 #filters-section .images-container {
@@ -369,16 +369,16 @@ header .mobile {
 }
 
 /* Quotes Section */
-/*
+
 #quotes-section {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -387,10 +387,10 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
-
+/*
 @media only screen and (max-width: 760px) {
   #quotes-section content {
     padding: 1.875rem .625rem;
@@ -409,7 +409,7 @@ header .mobile {
 }
 
 /* Footer */
-/*
+
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
@@ -424,7 +424,7 @@ footer .content {
 footer .copyright {
   flex-grow: 1;
 }
-
+/*
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
