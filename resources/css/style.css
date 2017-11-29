@@ -26,6 +26,7 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+  z-index: 5;
 }
 
 .center {
@@ -60,6 +61,7 @@ header {
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   font-family: Roboto;
+  z-index: 10;
 }
 
 header .content {
@@ -98,7 +100,7 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+/*@media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
   }
@@ -130,9 +132,9 @@ header .mobile {
     color: white;
   }
 }
-
+*/
 /* Sign Up Section */
-/*
+
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
@@ -182,7 +184,7 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
-@media only screen and (max-width: 760px) {
+/*@media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
