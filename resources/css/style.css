@@ -135,6 +135,10 @@ header .mobile {
 */
 /* Sign Up Section */
 
+.banner {
+  background-image: url("banner-landingpage.jpg")
+}
+
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
@@ -143,10 +147,11 @@ header .mobile {
 }
 
 #sign-up-cta {
+  margin: 10.625rem 0 10.625rem 6.25rem ;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
-  background-color: #9dc20b;
+  background-color: #9dc20a;
 }
 
 #sign-up-cta .content {
